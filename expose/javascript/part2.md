@@ -5,7 +5,7 @@
     expect to get an output of 150.
 3. Output is 150, This is the value we should receive after we have 
     applied to the discount to the original price.
-4. ERROR: we did not receive any output.
+4. [50,100,250]
 5. ERROR: line 13 does not work because when using the 'let' keyword 
     with 'i' it is outside of its scope when we call it again.
 6. ERROR: line 13 does not work because when using the 'let' keyword 
@@ -13,11 +13,11 @@
 7. We get an output of 150 and in this case it works because we are callig
     the variable within its respective scope and dont get an error
     like before.
-8. ERROR: we did not receive any output.
+8. [50,100,250]
 9. ERROR: the variable we are trying to access is not defined within the
     scope we are in.
 10. We get an output of 3 which is the lenght of our array.
-11. ERROR: we did not receive any output.
+11. [50,100,250]
 12. A. console.log(student.name);
     B. console.log(student['Grad Year']);
     C. console.log(student.greeting());
@@ -41,6 +41,9 @@
     that == does comparison without checking the datatype. While,
     === does the comparison but checks the datatype and will only
     return true if both the datatype and values are the same.
+16. The result will be an array that contains the value of each indeex * 2. 
+    For example we pass in array [1,2,3,] and get output of [2,4,6]. KEEP Adding more....
+17. Output is 1 4 3 2.
 
     
 
