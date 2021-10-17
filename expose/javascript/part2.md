@@ -5,7 +5,7 @@
     expect to get an output of 150.
 3. Output is 150, This is the value we should receive after we have 
     applied to the discount to the original price.
-4. [50,100,250]
+4. [50,100,250] --> prints out the new prices with the discount applied 
 5. ERROR: line 13 does not work because when using the 'let' keyword 
     with 'i' it is outside of its scope when we call it again.
 6. ERROR: line 13 does not work because when using the 'let' keyword 
